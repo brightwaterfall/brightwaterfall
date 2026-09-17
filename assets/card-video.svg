@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="180" viewBox="0 0 440 180" role="img" aria-label="AI Video Audio">
+  <defs>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="180" rx="20" fill="url(#card)" stroke="#1e293b"/>
+  <rect x="0" y="0" width="440" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="28" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c4b5fd" letter-spacing="2">AI · MEDIA</text>
+  <text x="28" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f8fafc">Video &amp; Audio Generator</text>
+  <text x="28" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">Generate video and audio with AI</text>
+  <text x="28" y="138" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">in a TypeScript web experience.</text>
+  <circle cx="400" cy="40" r="6" fill="#a78bfa">
+    <animate attributeName="r" values="4;7;4" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

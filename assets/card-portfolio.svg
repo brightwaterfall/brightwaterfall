@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="180" viewBox="0 0 440 180" role="img" aria-label="Portfolio">
+  <defs>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="180" rx="20" fill="url(#card)" stroke="#1e293b"/>
+  <rect x="0" y="0" width="440" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" begin="0.7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="28" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#93c5fd" letter-spacing="2">HTML · CSS</text>
+  <text x="28" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f8fafc">Portfolio Website</text>
+  <text x="28" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">Personal site that upgrades as</text>
+  <text x="28" y="138" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">new projects and skills ship.</text>
+  <circle cx="400" cy="40" r="6" fill="#60a5fa">
+    <animate attributeName="r" values="4;7;4" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+</svg>

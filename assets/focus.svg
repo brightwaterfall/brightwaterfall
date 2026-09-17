@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120" role="img" aria-label="Currently focusing">
+  <defs>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67e8f9" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="120" rx="20" fill="url(#panel)" stroke="#164e63"/>
+  <rect x="0" y="0" width="900" height="3" fill="url(#bar)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="36" y="40" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#67e8f9" letter-spacing="3">NOW FOCUSING</text>
+  <text x="36" y="72" font-family="Consolas, Monaco, monospace" font-size="16" fill="#e0f2fe">’ AI creative tools people actually want to use</text>
+  <text x="36" y="98" font-family="Consolas, Monaco, monospace" font-size="16" fill="#bae6fd">’ Full-stack craft · MERN + Next.js · design ’ code</text>
+  <circle cx="860" cy="36" r="8" fill="#22d3ee" opacity="0.9">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
