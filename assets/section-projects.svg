@@ -4,13 +4,9 @@
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
-    <filter id="soft">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
+      </defs>
   <rect width="900" height="70" rx="18" fill="#020617" stroke="#1e293b"/>
-  <rect x="18" y="18" width="8" height="34" rx="4" fill="url(#chip)" filter="url(#soft)">
+  <rect x="18" y="18" width="8" height="34" rx="4" fill="url(#chip)">
     <animate attributeName="height" values="24;34;24" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
     <animate attributeName="y" values="23;18;23" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
   </rect>
