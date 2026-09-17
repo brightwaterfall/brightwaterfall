@@ -1,7 +1,9 @@
 <!-- animated profile — brightwaterfall / Lazar -->
+<!-- CDN base keeps images working through GitHub's proxy -->
+
 <div align="center">
 
-  <img src="./assets/hero.svg" alt="brightwaterfall animated hero" width="100%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/hero.svg" alt="brightwaterfall animated hero" width="100%" />
 
   <br/>
 
@@ -21,11 +23,11 @@
 <br/>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/divider.svg" alt="" width="90%" />
 </p>
 
 <p align="center">
-  <img src="./assets/section-about.svg" alt="About Me" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/section-about.svg" alt="About Me" width="90%" />
 </p>
 
 <div align="center">
@@ -41,15 +43,15 @@ I'm **Lazar** — I build full-stack products and AI creative tools with a focus
 <br/>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/divider.svg" alt="" width="90%" />
 </p>
 
 <p align="center">
-  <img src="./assets/section-stack.svg" alt="Tech Stack" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/section-stack.svg" alt="Tech Stack" width="90%" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,python,figma,git,github,vercel&theme=dark&perline=7" alt="Animated skill icons" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,python,figma,git,github,vercel&theme=dark&perline=7" alt="Skill icons" />
 </p>
 
 <p align="center">
@@ -62,47 +64,47 @@ I'm **Lazar** — I build full-stack products and AI creative tools with a focus
 <br/>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/divider.svg" alt="" width="90%" />
 </p>
 
 <p align="center">
-  <img src="./assets/section-projects.svg" alt="Featured Projects" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/section-projects.svg" alt="Featured Projects" width="90%" />
 </p>
 
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/brightwaterfall/AI_Photo_edit_site">
-        <img src="./assets/card-photo.svg" alt="AI Photo Edit Site" width="100%" />
+        <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/card-photo.svg" alt="AI Photo Edit Site" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/brightwaterfall/AI_Video-Audio_Generator_website">
-        <img src="./assets/card-video.svg" alt="AI Video Audio Generator" width="100%" />
+        <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/card-video.svg" alt="AI Video Audio Generator" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/brightwaterfall/Mern_ecommerce">
-        <img src="./assets/card-mern.svg" alt="MERN Ecommerce" width="100%" />
+        <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/card-mern.svg" alt="MERN Ecommerce" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/brightwaterfall/my_portfolio">
-        <img src="./assets/card-portfolio.svg" alt="Portfolio Website" width="100%" />
+        <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/card-portfolio.svg" alt="Portfolio Website" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/brightwaterfall/restaurant_scrapper_from_googlemap">
-        <img src="./assets/card-scraper.svg" alt="Restaurant Scraper" width="100%" />
+        <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/card-scraper.svg" alt="Restaurant Scraper" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/brightwaterfall/Figma_To_HTML_For_Hubspot_Email">
-        <img src="./assets/card-email.svg" alt="Figma to HubSpot Email" width="100%" />
+        <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/card-email.svg" alt="Figma to HubSpot Email" width="100%" />
       </a>
       <br/>
       <a href="https://figma-to-html-for-hubspot-email.vercel.app">
@@ -115,24 +117,24 @@ I'm **Lazar** — I build full-stack products and AI creative tools with a focus
 <br/>
 
 <p align="center">
-  <img src="./assets/focus.svg" alt="Currently focusing" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/focus.svg" alt="Currently focusing" width="90%" />
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/divider.svg" alt="" width="90%" />
 </p>
 
 <p align="center">
-  <img src="./assets/section-stats.svg" alt="GitHub Pulse" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/section-stats.svg" alt="GitHub Pulse" width="90%" />
 </p>
 
 <div align="center">
 
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=brightwaterfall&show_icons=true&theme=radical&hide_border=true&bg_color=020617&title_color=67E8F9&icon_color=22D3EE&text_color=E2E8F0&ring_color=38BDF8" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats-one-bice.vercel.app/api?username=brightwaterfall&show_icons=true&theme=radical&hide_border=true&bg_color=020617&title_color=67E8F9&icon_color=22D3EE&text_color=E2E8F0" alt="GitHub stats" />
   &nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=brightwaterfall&layout=compact&theme=radical&hide_border=true&bg_color=020617&title_color=67E8F9&text_color=E2E8F0" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=brightwaterfall&layout=compact&theme=radical&hide_border=true&bg_color=020617&title_color=67E8F9&text_color=E2E8F0" alt="Top languages" />
 
   <br/><br/>
 
@@ -140,17 +142,14 @@ I'm **Lazar** — I build full-stack products and AI creative tools with a focus
 
   <br/><br/>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=brightwaterfall&bg_color=020617&color=67e8f9&line=22d3ee&point=e0f2fe&area=true&hide_border=true&custom_title=Contribution%20Wave" alt="Contribution graph" />
-
-  <br/><br/>
-
-  <img src="https://github-profile-trophy.vercel.app/?username=brightwaterfall&theme=radical&no-frame=true&no-bg=false&column=6&margin-w=8&margin-h=8" alt="Trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brightwaterfall&theme=radical" alt="Repos per language" />
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=brightwaterfall&theme=radical" alt="Most commit language" />
 
 </div>
 
 <br/>
 
-<!-- snake appears after the workflow runs once -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/output/github-contribution-grid-snake-dark.svg" />
@@ -162,7 +161,7 @@ I'm **Lazar** — I build full-stack products and AI creative tools with a focus
 <br/>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="" width="90%" />
+  <img src="https://raw.githubusercontent.com/brightwaterfall/brightwaterfall/main/assets/divider.svg" alt="" width="90%" />
 </p>
 
 <div align="center">
