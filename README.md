@@ -103,7 +103,7 @@ I build full-stack apps, AI-powered tools, and clean frontends people actually e
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/brightwaterfall/Figma_To_HTML_For_Hubspot_Email">Figma → HubSpot Email</a></h3>
-      <p>Pixel-aware HTML email builds from Figma designs for HubSpot campaigns.</p>
+      <p>Pixel-aware HTML email builds from Figma designs for HubSpot campaigns. <a href="https://figma-to-html-for-hubspot-email.vercel.app">Live demo</a></p>
       <p>
         <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
         <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
