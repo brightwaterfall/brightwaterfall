@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Have something worth building? Let's talk.">
+  <defs>
+    <clipPath id="c"><rect width="1200" height="220" rx="20"/></clipPath>
+    <radialGradient id="glow" cx="50%" cy="120%" r="60%">
+      <stop offset="0%" stop-color="#7FD4E6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#7FD4E6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7FD4E6" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#CFF3FA" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="220" fill="#0A0A0B"/>
+    <rect width="1200" height="220" fill="url(#glow)"/>
+    <g fill="url(#drop)">
+      <rect x="140" y="-80" width="1.2" height="70"><animate attributeName="y" values="-80;240" dur="4.6s" repeatCount="indefinite"/></rect>
+      <rect x="180" y="-80" width="1.2" height="60"><animate attributeName="y" values="-80;240" dur="3.8s" begin="1.4s" repeatCount="indefinite"/></rect>
+      <rect x="1020" y="-80" width="1.2" height="70"><animate attributeName="y" values="-80;240" dur="4.2s" begin="0.7s" repeatCount="indefinite"/></rect>
+      <rect x="1060" y="-80" width="1.2" height="60"><animate attributeName="y" values="-80;240" dur="5.0s" begin="2.1s" repeatCount="indefinite"/></rect>
+    </g>
+    <text x="600" y="98" text-anchor="middle" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="40" letter-spacing="-0.5" fill="#EDEBE6">Have something worth building?</text>
+    <text x="600" y="146" text-anchor="middle" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-style="italic" font-size="26" fill="#7FD4E6">Let&#8217;s talk.</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="219" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="344" viewBox="0 0 1200 344" role="img" aria-label="Toolkit. Languages: TypeScript, JavaScript, Python, HTML, CSS. Frontend: React, Next.js. Backend: Node.js, Express, MongoDB. AI and automation: generative photo, video and audio; scraping. Workflow: Figma, Git, GitHub, Vercel.">
+  <rect width="1200" height="344" rx="20" fill="#0A0A0B"/>
+  <rect x="0.5" y="0.5" width="1199" height="343" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <g stroke="#FFFFFF" stroke-opacity="0.09">
+    <line x1="64" y1="104" x2="1136" y2="104"/>
+    <line x1="64" y1="164" x2="1136" y2="164"/>
+    <line x1="64" y1="224" x2="1136" y2="224"/>
+    <line x1="64" y1="284" x2="1136" y2="284"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2.5">
+    <g fill="#7FD4E6">
+      <text x="64" y="79">01</text><text x="64" y="139">02</text><text x="64" y="199">03</text><text x="64" y="259">04</text><text x="64" y="319">05</text>
+    </g>
+    <g fill="#8A8780">
+      <text x="112" y="79">LANGUAGES</text>
+      <text x="112" y="139">FRONTEND</text>
+      <text x="112" y="199">BACKEND</text>
+      <text x="112" y="259">AI &amp; AUTOMATION</text>
+      <text x="112" y="319">WORKFLOW</text>
+    </g>
+  </g>
+
+  <g font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="26" fill="#EDEBE6">
+    <text x="420" y="82">TypeScript <tspan fill="#4A4A50">/</tspan> JavaScript <tspan fill="#4A4A50">/</tspan> Python <tspan fill="#4A4A50">/</tspan> HTML <tspan fill="#4A4A50">/</tspan> CSS</text>
+    <text x="420" y="142">React <tspan fill="#4A4A50">/</tspan> Next.js</text>
+    <text x="420" y="202">Node.js <tspan fill="#4A4A50">/</tspan> Express <tspan fill="#4A4A50">/</tspan> MongoDB</text>
+    <text x="420" y="262">Generative photo, video &amp; audio <tspan fill="#4A4A50">/</tspan> Scraping</text>
+    <text x="420" y="322">Figma <tspan fill="#4A4A50">/</tspan> Git <tspan fill="#4A4A50">/</tspan> GitHub <tspan fill="#4A4A50">/</tspan> Vercel</text>
+  </g>
+</svg>

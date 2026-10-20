@@ -1,92 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-label="brightwaterfall hero">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Lazar - Full-stack and AI engineer. Crafting software that feels effortless.">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#020617">
-        <animate attributeName="stop-color" values="#020617;#0f172a;#020617" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#0c4a6e">
-        <animate attributeName="stop-color" values="#0c4a6e;#0369a1;#0c4a6e" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#083344">
-        <animate attributeName="stop-color" values="#083344;#164e63;#083344" dur="7s" repeatCount="indefinite"/>
-      </stop>
+    <clipPath id="card"><rect width="1200" height="440" rx="20"/></clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.028"/>
+    </pattern>
+    <radialGradient id="glow" cx="85%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#7FD4E6" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#7FD4E6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7FD4E6" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#CFF3FA" stop-opacity="0.9"/>
     </linearGradient>
-    <linearGradient id="waveA" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e0f2fe"/>
-      <stop offset="50%" stop-color="#67e8f9"/>
-      <stop offset="100%" stop-color="#a5b4fc"/>
+    <mask id="falls" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="440">
+      <rect x="860" y="0" width="120" height="440" fill="url(#fadeL)"/>
+      <rect x="980" y="0" width="220" height="440" fill="#FFFFFF"/>
+    </mask>
+    <linearGradient id="fadeB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0A0B" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0A0A0B"/>
     </linearGradient>
   </defs>
 
-  <rect width="1100" height="320" rx="28" fill="url(#bg)"/>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="440" fill="#0A0A0B"/>
+    <rect width="1200" height="440" fill="url(#grid)"/>
+    <rect width="1200" height="440" fill="url(#glow)"/>
 
-  <circle cx="180" cy="90" r="70" fill="#22d3ee" opacity="0.12">
-    <animate attributeName="cy" values="90;120;90" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.08;0.18;0.08" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="920" cy="200" r="100" fill="#818cf8" opacity="0.14">
-    <animate attributeName="cx" values="920;880;920" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="560" cy="40" r="50" fill="#38bdf8" opacity="0.1">
-    <animate attributeName="r" values="50;70;50" dur="4s" repeatCount="indefinite"/>
-  </circle>
+    <g mask="url(#falls)">
+    <!-- waterfall: static threads -->
+    <g stroke="#FFFFFF" stroke-opacity="0.07">
+      <line x1="880" y1="0" x2="880" y2="440"/><line x1="900" y1="0" x2="900" y2="440"/>
+      <line x1="920" y1="0" x2="920" y2="440"/><line x1="940" y1="0" x2="940" y2="440"/>
+      <line x1="960" y1="0" x2="960" y2="440"/><line x1="980" y1="0" x2="980" y2="440"/>
+      <line x1="1000" y1="0" x2="1000" y2="440"/><line x1="1020" y1="0" x2="1020" y2="440"/>
+      <line x1="1040" y1="0" x2="1040" y2="440"/><line x1="1060" y1="0" x2="1060" y2="440"/>
+      <line x1="1080" y1="0" x2="1080" y2="440"/><line x1="1100" y1="0" x2="1100" y2="440"/>
+      <line x1="1120" y1="0" x2="1120" y2="440"/><line x1="1140" y1="0" x2="1140" y2="440"/>
+    </g>
 
-  <g stroke-linecap="round" opacity="0.55">
-    <line x1="140" y1="-20" x2="140" y2="340" stroke="#67e8f9" stroke-width="2">
-      <animate attributeName="opacity" values="0;0.7;0" dur="2.4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="220" y1="-40" x2="220" y2="340" stroke="#22d3ee" stroke-width="1.5">
-      <animate attributeName="opacity" values="0;0.6;0" dur="3s" begin="0.4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="860" y1="-30" x2="860" y2="340" stroke="#a5b4fc" stroke-width="2">
-      <animate attributeName="opacity" values="0;0.65;0" dur="2.7s" begin="0.8s" repeatCount="indefinite"/>
-    </line>
-    <line x1="940" y1="-50" x2="940" y2="340" stroke="#38bdf8" stroke-width="1.5">
-      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" begin="1.1s" repeatCount="indefinite"/>
-    </line>
+    <!-- waterfall: falling light -->
+    <g fill="url(#drop)">
+      <rect x="879.25" y="-140" width="1.5" height="120"><animate attributeName="y" values="-140;460" dur="5.2s" begin="0s" repeatCount="indefinite"/></rect>
+      <rect x="899.25" y="-140" width="1.5" height="90"><animate attributeName="y" values="-140;460" dur="4.1s" begin="1.3s" repeatCount="indefinite"/></rect>
+      <rect x="919.25" y="-140" width="1.5" height="140"><animate attributeName="y" values="-140;460" dur="6.3s" begin="0.6s" repeatCount="indefinite"/></rect>
+      <rect x="939.25" y="-140" width="1.5" height="100"><animate attributeName="y" values="-140;460" dur="4.7s" begin="2.2s" repeatCount="indefinite"/></rect>
+      <rect x="959.25" y="-140" width="1.5" height="130"><animate attributeName="y" values="-140;460" dur="5.8s" begin="0.9s" repeatCount="indefinite"/></rect>
+      <rect x="979.25" y="-140" width="1.5" height="80"><animate attributeName="y" values="-140;460" dur="3.9s" begin="3.0s" repeatCount="indefinite"/></rect>
+      <rect x="999.25" y="-140" width="1.5" height="120"><animate attributeName="y" values="-140;460" dur="5.0s" begin="1.8s" repeatCount="indefinite"/></rect>
+      <rect x="1019.25" y="-140" width="1.5" height="110"><animate attributeName="y" values="-140;460" dur="4.4s" begin="0.3s" repeatCount="indefinite"/></rect>
+      <rect x="1039.25" y="-140" width="1.5" height="140"><animate attributeName="y" values="-140;460" dur="6.0s" begin="2.7s" repeatCount="indefinite"/></rect>
+      <rect x="1059.25" y="-140" width="1.5" height="90"><animate attributeName="y" values="-140;460" dur="4.0s" begin="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="1079.25" y="-140" width="1.5" height="120"><animate attributeName="y" values="-140;460" dur="5.5s" begin="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="1099.25" y="-140" width="1.5" height="100"><animate attributeName="y" values="-140;460" dur="4.6s" begin="0.5s" repeatCount="indefinite"/></rect>
+      <rect x="1119.25" y="-140" width="1.5" height="130"><animate attributeName="y" values="-140;460" dur="5.9s" begin="2.0s" repeatCount="indefinite"/></rect>
+      <rect x="1139.25" y="-140" width="1.5" height="90"><animate attributeName="y" values="-140;460" dur="4.3s" begin="1.5s" repeatCount="indefinite"/></rect>
+    </g>
+    </g>
+    <rect x="0" y="360" width="1200" height="80" fill="url(#fadeB)"/>
+
+    <!-- eyebrow -->
+    <text x="64" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3.5" fill="#8A8780">BRIGHTWATERFALL<tspan fill="#3A3A3F">  /  </tspan>LAZAR</text>
+
+    <!-- headline -->
+    <g font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" fill="#EDEBE6">
+      <text x="62" y="170" font-size="62" letter-spacing="-1">Crafting software</text>
+      <text x="62" y="240" font-size="62" letter-spacing="-1">that feels <tspan font-style="italic" fill="#7FD4E6">effortless.</tspan></text>
+    </g>
+    <text x="64" y="284" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#8A8780">Full-stack engineer building AI creative tools and considered web products.</text>
+
+    <!-- meta row -->
+    <line x1="64" y1="330" x2="800" y2="330" stroke="#FFFFFF" stroke-opacity="0.09"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.5" fill="#7A7771">
+      <text x="64" y="362">FOCUS</text>
+      <text x="324" y="362">STACK</text>
+      <text x="584" y="362">STATUS</text>
+    </g>
+    <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#D6D3CC">
+      <text x="64" y="388">AI photo, video &amp; audio</text>
+      <text x="324" y="388">Next.js &#183; MERN &#183; Python</text>
+      <text x="602" y="388">Open to collaboration</text>
+    </g>
+    <circle cx="589" cy="383" r="4" fill="#7FD4E6"/>
+    <circle cx="589" cy="383" r="4" fill="none" stroke="#7FD4E6">
+      <animate attributeName="r" values="4;10" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.7;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
   </g>
-
-  <rect x="0" y="0" width="1100" height="3" fill="url(#waveA)" opacity="0.7">
-    <animate attributeName="y" values="0;317;0" dur="5s" repeatCount="indefinite"/>
-  </rect>
-
-  <g fill="#e0f2fe">
-    <circle cx="300" cy="180" r="2.5">
-      <animate attributeName="cy" values="180;120;180" dur="3.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="480" cy="220" r="2">
-      <animate attributeName="cy" values="220;150;220" dur="4s" begin="0.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="4s" begin="0.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="700" cy="160" r="2.5">
-      <animate attributeName="cy" values="160;100;160" dur="3.2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="780" cy="240" r="1.8">
-      <animate attributeName="cy" values="240;180;240" dur="4.4s" begin="0.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.85;0.1" dur="4.4s" begin="0.2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <text x="550" y="132" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="url(#titleGrad)">brightwaterfall</text>
-  <text x="550" y="178" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#bae6fd">Lazar · Full-Stack &amp; AI Builder</text>
-
-  <rect x="390" y="198" width="320" height="3" rx="2" fill="#22d3ee" opacity="0.9">
-    <animate attributeName="width" values="80;320;80" dur="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="510;390;510" dur="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="550" y="245" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#7dd3fc">Shipping modern web · AI tools · clean product craft</text>
-
-  <rect x="1.5" y="1.5" width="1097" height="317" rx="28" fill="none" stroke="#38bdf8" stroke-opacity="0.35">
-    <animate attributeName="stroke-opacity" values="0.2;0.55;0.2" dur="3s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="0.5" y="0.5" width="1199" height="439" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
 </svg>
